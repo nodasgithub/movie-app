@@ -5,14 +5,10 @@ import Spinner from "./components/Spinner.jsx";
 import MovieCard from "./components/MovieCard.jsx";
 import { getTrendingMovies, updateSearchCount } from "./appwrite.js";
 
-// https://www.youtube.com/watch?v=dCLhUialKPQ
-// 1:41:11
-
 // TMDB Movie link
 // https://developer.themoviedb.org/reference/search-movie
 
 const API_BASE_URL = "https://api.themoviedb.org/3";
-
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
 const API_OPTIONS = {
